@@ -52,7 +52,7 @@ import DonorForm from "./Tim/DonorForm";
 import DonorList from "./Tim/DonorList";
 // import AdminDashboard from "./BckHouseList/AdminDashboard";
 // import AdminPanel from "./Cook_butcher/AdminPanel";
- import AdminDashboard from "./OneAdminDashboard/AdminDashboard";
+//  import AdminDashboard from "./OneAdminDashboard/AdminDashboard";
 import BankForm from "./Banks/BankForm";
 import BankList from "./Banks/BankList";
 import Hotel from "./Hotel/Hotel";
@@ -102,7 +102,7 @@ export default function Router() {
       <Route path="/Cook_butcher_1" element={<Cook_butcher_1 />} />
       <Route path="/House_rental_1" element={<House_rental_1 />} />
       <Route path="/UserForm" element={<UserForm />} />
-      <Route path="/UserList" element={<UserList />} />
+      {/* <Route path="/UserList" element={<UserList />} /> */}
       <Route path="/House_rental_Form" element={<House_rental_Form />} />
       <Route path="/House_rental" element={<House_rental />} />
       <Route path="/Kjtuhigbniu" element={<Kjtuhigbniu />} />
@@ -116,11 +116,11 @@ export default function Router() {
       {/* <Route path="/Cleaning_staff_1" element={<Cleaning_staff_1 />} /> */}
       <Route path="/CleaningForm" element={<CleaningForm />} />
       {/* <Route path="/Police_1" element={<Police_1 />} /> */}
-      <Route path="/ProfileCardGrid" element={<ProfileCardGrid />} />
+      {/* <Route path="/ProfileCardGrid" element={<ProfileCardGrid />} /> */}
       <Route path="/DonorForm" element={<DonorForm />} />
       <Route path="/DonorList" element={<DonorList />} />
       {/* <Route path="/AdminPanel" element={<AdminPanel />} /> */}
-      <Route path="/AdminDashboard" element={<AdminDashboard />} />
+      {/* <Route path="/AdminDashboard" element={<AdminDashboard />} /> */}
       <Route path="/BankForm" element={<BankForm />} />
       <Route path="/BankList" element={<BankList />} />
       <Route path="/Hotel" element={<Hotel />} />
